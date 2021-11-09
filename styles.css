@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+* {box-sizing: border-box;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+    height: 100vh;
+    font-size: 30px;
+}
+
+/* Animated background */
+
+.animation-area {
+    width: 100%;
+    height: 100%;
+}
+
+.circle-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.circle-area li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    background: rgba(224, 156, 48, 0.609);
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 8px rgba(224, 157, 48, 0.602);
+    z-index: -1;
+    top: 200px;
+    left: -200px;
+    width: 0px;
+    height: 0px;
+    opacity: 30%;
+    
+}
+
+.circle-area li:nth-child(1){
+    width: 520px;
+    height: 520px;
+    left: 5%;
+    top: 40%;
+}
+
+.circle-area li:nth-child(2){
+    width: 150px;
+    height: 150px;
+    left: 30%;
+    top: 15%;
+}
+
+.circle-area li:nth-child(3){
+    width: 200px;
+    height: 200px;
+    left: 55%;
+    top: 25%;
+}
+
+.circle-area li:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 32%;
+    top: 52%;
+}
+
+.circle-area li:nth-child(5){
+    width: 260px;
+    height: 260px;
+    left: 45%;
+    top: 56%;
+}
+
+
+
+/* Text */
+
+main {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 60%;
+}
+
+
+
